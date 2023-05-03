@@ -1,0 +1,173 @@
+.container-fluid {
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+
+.ar {
+    display: none;
+}
+
+.navbar-nav li a {
+    color: #000;
+}
+ 
+.navbar-nav li a:hover {
+    border-bottom: 1px solid black ;
+}
+
+
+.active a{
+    border-bottom: 1px solid black;
+}
+
+.green-select .active a{
+    border-bottom: 1px solid #51dcc5;
+}
+
+
+.hello span{
+    padding: 5px 25px;
+    color: white;
+    background-color: #51dcc5;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;   
+}
+
+.rounded-circle {
+    box-shadow: 0px 0px 0px 20px grey, 0px 0px 0px 40px lightgray
+}
+
+.small-container {
+    line-height: 3rem;
+}
+
+.skill {
+    border: 1px solid #51dcc5;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-right: 10px;
+}
+
+.custom {
+    background-color: #51dcc5;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 20px;
+}
+
+
+.custom-card {
+    padding: 15px;
+    text-align: start;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.custom-card-2 {
+    width: 350px;
+    padding-bottom: 15px;
+    text-align: start;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.custom-card-2 {
+    padding-bottom: 15px;
+    text-align: start;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.custom-card-3 {
+    padding: 15px;
+    text-align: start;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.custom-card-3 img {
+    border-radius: 50%;
+    border: 5px solid #51dcc5;
+}
+
+.custom-card-2 img {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.custom-card i {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.purple {
+    color: #9774fa;
+}
+
+.yellow {
+    color: #ed7256
+}
+
+.blue {
+    color: #2796e2;
+}
+
+.skills {
+    width: 70%;
+}
+
+.custom-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    background-color: #51dcc5;
+}
+
+.progress-item {
+    margin-top: 20px;
+}
+
+.circular-progress {
+    padding-bottom: 40px;
+}
+
+.circular-progress span {
+    border-radius: 50%;
+    border: 3px solid #51dcc5;
+    padding: 40px;
+}
+
+
+.custom-card .title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.green {
+    color: #51dcc5;
+}
+
+.custom-padding {
+    padding: 30px;
+}
+
+.c-bord img {
+    border-radius: 8px;
+}
+.text-details {
+    padding: 25px
+}
+
+.icon-style {
+    font-size: 15px;
+    border-radius: 50%;
+    padding: 50px;
+    color: black;
+    border: 1px solid #51dcc5;
+}
+
+.row-edits {
+    display: flex;
+    gap: 10px;
+}

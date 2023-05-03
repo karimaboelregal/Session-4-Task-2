@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/92e0065eb4.js" crossorigin="anonymous"></script>
+    <link id="pagestyle" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script>
+        function changelanguageAR() {
+            document.getElementById("pagestyle").setAttribute("href", "style-ar.css");  
+        }
+        function changelanguageEN() {
+            document.getElementById("pagestyle").setAttribute("href", "style.css");  
+        }
+    </script>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 pb-5">
+                <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <button class="en" onclick="changelanguageAR();">AR</button>
+                            <button class="ar" onclick="changelanguageEN();">EN</button>
+                            <li class="nav-item active px-3">
+                                <a class="nav-link en" href="#">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link ar" href="#">الصفحة الرئيسية<span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item px-2">
+                                <a class="nav-link en" href="#">About</a>
+                                <a class="nav-link ar" href="#">عن</a>
+                            </li>
+                            <li class="nav-item px-2">
+                                <a class="nav-link en" href="#">Skills</a>
+                                <a class="nav-link ar" href="#">مهارات</a>
+                            </li>
+                            <li class="nav-item px-2">
+                                <a class="nav-link en" href="#">Experiences</a>
+                                <a class="nav-link ar" href="#">خبرة</a>
+                            </li>
+                            <li class="nav-item px-2">
+                                <a class="nav-link en" href="#">Portfolio</a>
+                                <a class="nav-link ar" href="#">مَلَفّ</a>
+                            </li>
+                            <li class="nav-item px-2">
+                                <a class="nav-link en" href="#">Pricing</a>
+                                <a class="nav-link ar" href="#">التسعير</a>
+                            </li>
+                            <li class="nav-item px-2">
+                                <a class="nav-link en" href="#">Blog</a>
+                                <a class="nav-link ar" href="#">مدونة</a>
+                            </li>
+                            <li class="nav-item px-2">
+                                <a class="nav-link en" href="#">contact</a>
+                                <a class="nav-link ar" href="#">اتصال</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="row px-5 pt-5 mt-5">
+            <div class="col-lg-3 col-md-12 col-sm-12 text-sm-center text-md-center mx-auto">
+                <div class="hello">
+                    <span class="en">Hello I'm</span>
+                    <span class="ar">مرحبا أنا</span>
+                </div>
+                <div class="details pt-4">
+                    <h1 class="en">Alex Johnson</h1>
+                    <h1 class="ar">أليكس جونسون</h1>
+                    <h4 class="en">Product Designer</h4>
+                    <h4 class="ar">مصمم المنتج</h4>
+                    <div class="item"><i class="fa-solid fa-envelope pr-2"></i> <span>karim@gmail.com</span></div>
+                    <div class="item pt-2"><i class="fa-solid fa-phone pr-2"></i> <span>+2 34234 234234</span></div>
+                    <div class="item pt-2 en"><i class="fa-solid fa-location-dot pr-2"></i> <span>5 street of
+                            nothing</span></div>
+                    <div class="item pt-2 ar"><i class="fa-solid fa-location-dot pr-2"></i> <span>5 شارع لا شيء</span>
+                    </div>
+                    <div class="item px-4 pt-4">
+                        <i class="fa-brands fa-facebook-f pr-4"></i>
+                        <i class="fa-brands fa-twitter pr-4"></i>
+                        <i class="fa-brands fa-github pr-4"></i>
+                        <i class="fa-solid fa-link"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-12 text-sm-center col-sm-12 text-md-center mx-auto">
+                <img src="dude.jpg" class="rounded-circle" alt="Cinque Terre" height="400" width="400">
+            </div>
+        </div>
+
+        <div class="row px-5 pt-5 pb-5">
+            <div class="col-lg-6 mx-auto text-lg-left text-sm-center">
+                <img src="work.PNG" width="550" height="350" />
+            </div>
+            <div class="col-lg-6 mx-auto pt-5">
+                <h4 class="en">About me</h4>
+                <h4 class="ar text-right">عَنِّي</h4>
+                <p class="en">
+                    Hello I'm Patrick, web-developer based in Paris. I have alot of experience in website design,
+                    building and customization. My skills are mainly
+                </p>
+                <p class="ar text-right">
+                    مرحبًا ، أنا باتريك ، مطور ويب مقيم في باريس. لدي خبرة كبيرة في تصميم المواقع الإلكترونية والبناء
+                    والتخصيص. مهاراتي بشكل رئيسي
+                </p>
+                <div class="small-container">
+                    <span class="skill">php</span>
+                    <span class="skill">html</span>
+                    <span class="skill">css</span>
+                    <span class="skill">css</span>
+                    <span class="skill">css</span>
+                    <span class="skill">css</span>
+                    <span class="skill">css</span>
+                    <span class="skill">css</span>
+                    <span class="skill">css</span>
+                    <span class="skill">css</span>
+                    <span class="skill">css</span>
+                    <span class="skill">css</span>
+                    <span class="skill">css</span>
+                    <span class="skill">css</span>
+                    <span class="skill">css</span>
+                </div>
+                <button type="button" class="btn custom en">Download CV<i
+                        class="fa-solid fa-download pl-2"></i></button>
+                <button type="button" class="btn custom ar"><i class="fa-solid fa-download pl-2"></i>تحميل السيرة
+                    الذاتية</button>
+            </div>
+
+        </div>
+
+        <div class="row px-5 pt-5 pb-5">
+            <div class="col-11 mx-auto text-center">
+                <h3 class="pb-5 en">What I do</h3>
+                <h3 class="pb-5 ar">ما أفعله</h3>
+                <div class="row mx-auto">
+                    <div class="col-sm-12 col-lg-4 mx-auto pb-md-5 pb-sm-5">
+                        <div class="custom-card">
+                            <i class="fa fa-bullseye purple"></i>
+                            <h3 class="en">UI Design</h3>
+                            <h3 class="ar">تصميم واجهة المستخدم</h3>
+                            <p class="pt-3 en">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, aut?
+                                Molestias,
+                                perspiciatis commodi mollitia aliquid eaque tempore beatae? Recusandae minus obcaecati
+                                rem rerum ea placeat laborum cum sed aspernatur sint.</p>
+                            <p class="pt-3 ar">الشركة نفسها هي شركة ناجحة للغاية. لا أحد ، أو؟
+                                مشاكل
+                                هل ترى فوائد المرونة والسعادة في ذلك الوقت؟ أقل عميًا بسبب الرفض
+                                إن مسألة الأشياء ترضي العمال عندما يسعون.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4 mx-auto pb-md-5 pb-sm-5">
+                        <div class="custom-card">
+                            <i class="fa fa-code yellow"></i>
+                            <h3 class="en">Web Development</h3>
+                            <h3 class="ar">تطوير الشبكة</h3>
+                            <p class="pt-3 en">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, aut?
+                                Molestias,
+                                perspiciatis commodi mollitia aliquid eaque tempore beatae? Recusandae minus obcaecati
+                                rem rerum ea placeat laborum cum sed aspernatur sint.</p>
+                            <p class="pt-3 ar">الشركة نفسها هي شركة ناجحة للغاية. لا أحد ، أو؟
+                                مشاكل
+                                هل ترى فوائد المرونة والسعادة في ذلك الوقت؟ أقل عميًا بسبب الرفض
+                                إن مسألة الأشياء ترضي العمال عندما يسعون.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4 mx-auto pb-md-5 pb-sm-5">
+                        <div class="custom-card">
+                            <i class="fa fa-object-ungroup blue"></i>
+                            <h3 class="en">App Development</h3>
+                            <h3 class="ar">تطوير التطبيقات</h3>
+                            <p class="pt-3 en">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, aut?
+                                Molestias,
+                                perspiciatis commodi mollitia aliquid eaque tempore beatae? Recusandae minus obcaecati
+                                rem rerum ea placeat laborum cum sed aspernatur sint.</p>
+                            <p class="pt-3 ar">الشركة نفسها هي شركة ناجحة للغاية. لا أحد ، أو؟
+                                مشاكل
+                                هل ترى فوائد المرونة والسعادة في ذلك الوقت؟ أقل عميًا بسبب الرفض
+                                إن مسألة الأشياء ترضي العمال عندما يسعون.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row px-5 pt-5 pb-5">
+            <div class="col-lg-6 col-sm-12 col-md-12 text-center">
+                <h4 class="en">Technical skills</h4>
+                <h4 class="ar">مهارات تقنية</h4>
+                <div class="skills mx-auto">
+                    <div class="progress-item">
+                        <div class="custom-row"><span>Javascript</span> <span>86%</span></div>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar" style="width:86%" role="progressbar" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress-item">
+                        <div class="custom-row"><span>Java</span> <span>46%</span></div>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar" style="width:46%" role="progressbar" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress-item">
+                        <div class="custom-row"><span>Python</span> <span>38%</span></div>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar" style="width:38%" role="progressbar" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress-item">
+                        <div class="custom-row"><span>PHP</span> <span>17%</span></div>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar" style="width:17%" role="progressbar" aria-valuenow="75"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="progress-item">
+                        <div class="custom-row"><span>PHP</span> <span>17%</span></div>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar" style="width:17%" role="progressbar" aria-valuenow="20"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 col-md-12 text-center">
+                <h4 class="pb-3 en">Professional skills</h4>
+                <h4 class="pb-3 ar">مهارات احترافية</h4>
+                <div class="pro">
+                    <div class="row pt-5 pb-3">
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="circular-progress">
+                                <span>95%</span>
+                            </div>
+                            <span>Communication</span>
+                        </div>
+                        <div class="col-lg-6 col-sm-12 pt-sm-5 pt-lg-0">
+                            <div class="circular-progress">
+                                <span>95%</span>
+                            </div>
+                            <span>Communication</span>
+                        </div>
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="circular-progress">
+                                <span>95%</span>
+                            </div>
+                            <span>Communication</span>
+                        </div>
+                        <div class="col-lg-6 col-sm-12 pt-sm-5 pt-lg-0">
+                            <div class="circular-progress">
+                                <span>95%</span>
+                            </div>
+                            <span>Communication</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row px-5 pt-5 pb-5">
+            <div class="col-lg-5 col-sm-12 col-md-12 mx-auto pb-md-5 pb-sm-5">
+                <h3 class="en">Education</h3>
+                <h3 class="ar text-right">تعليم</h3>
+
+                <div class="custom-card custom-padding mb-4 mt-4">
+                    <div class="title en"><span>Art & Multimedia from</span> <span class="green">Oxford
+                            University</span></div>
+                    <div class="title ar"><span>الفن والوسائط المتعددة من</span> <span class="green">جامعة
+                            أكسفورد</span></div>
+                    <div><span class="green">2005-2008</span></div>
+                    <div>
+                        <p class="en">
+                            it is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout. The point of using Lorem Ipsum.
+                        </p>
+                        <p class="ar">
+                            هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على
+                            الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. الهدف من استخدام لوريم إيبسوم.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="custom-card custom-padding mb-4">
+                    <div class="title en"><span>Art & Multimedia from</span> <span class="green">Oxford
+                            University</span></div>
+                    <div class="title ar"><span>الفن والوسائط المتعددة من</span> <span class="green">جامعة
+                            أكسفورد</span></div>
+                    <div><span class="green">2005-2008</span></div>
+                    <div>
+                        <p class="en">
+                            it is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout. The point of using Lorem Ipsum.
+                        </p>
+                        <p class="ar">
+                            هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على
+                            الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. الهدف من استخدام لوريم إيبسوم.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="custom-card custom-padding">
+                    <div class="title en"><span>Art & Multimedia from</span> <span class="green">Oxford
+                            University</span></div>
+                    <div class="title ar"><span>الفن والوسائط المتعددة من</span> <span class="green">جامعة
+                            أكسفورد</span></div>
+                    <div><span class="green">2005-2008</span></div>
+                    <div>
+                        <p class="en">
+                            it is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout. The point of using Lorem Ipsum.
+                        </p>
+                        <p class="ar">
+                            هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على
+                            الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. الهدف من استخدام لوريم إيبسوم.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-5 col-sm-12 col-md-12 mx-auto pb-md-5 pb-sm-5">
+                <h3 class="en">Work Experience</h3>
+                <h3 class="ar text-right">خبرة في العمل</h3>
+
+
+                <div class="custom-card custom-padding mb-4 mt-4">
+                    <div class="title en"><span>Art & Multimedia from</span> <span class="green">Oxford
+                            University</span></div>
+                    <div class="title ar"><span>الفن والوسائط المتعددة من</span> <span class="green">جامعة
+                            أكسفورد</span></div>
+                    <div><span class="green">2005-2008</span></div>
+                    <div>
+                        <p class="en">
+                            it is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout. The point of using Lorem Ipsum.
+                        </p>
+                        <p class="ar">
+                            هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على
+                            الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. الهدف من استخدام لوريم إيبسوم.
+                        </p>
+                    </div>
+
+
+                </div>
+
+                <div class="custom-card custom-padding mb-4">
+                    <div class="title en"><span>Art & Multimedia from</span> <span class="green">Oxford
+                            University</span></div>
+                    <div class="title ar"><span>الفن والوسائط المتعددة من</span> <span class="green">جامعة
+                            أكسفورد</span></div>
+                    <div><span class="green">2005-2008</span></div>
+                    <div>
+                        <p class="en">
+                            it is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout. The point of using Lorem Ipsum.
+                        </p>
+                        <p class="ar">
+                            هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على
+                            الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. الهدف من استخدام لوريم إيبسوم.
+                        </p>
+                    </div>
+
+
+                </div>
+                <div class="custom-card custom-padding">
+                    <div class="title en"><span>Art & Multimedia from</span> <span class="green">Oxford
+                            University</span></div>
+                    <div class="title ar"><span>الفن والوسائط المتعددة من</span> <span class="green">جامعة
+                            أكسفورد</span></div>
+                    <div><span class="green">2005-2008</span></div>
+                    <div>
+                        <p class="en">
+                            it is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout. The point of using Lorem Ipsum.
+                        </p>
+                        <p class="ar">
+                            هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على
+                            الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. الهدف من استخدام لوريم إيبسوم.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="row px-5 pt-5 pb-5">
+            <div class="col-12 text-center">
+                <h4 class="en">Recent Portfolio</h4>
+                <h4 class="ar">المحفظة الأخيرة</h4>
+                <div class="row pb-4 pt-4">
+                    <div class="col-8 mx-lg-auto mx-md-auto">
+                        <nav class="navbar navbar-expand navbar-light green-select">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav mx-auto">
+                                    <li class="nav-item px-3">
+                                        <a class="nav-link en" href="#">All Categories</a>
+                                        <a class="nav-link ar" href="#">جميع الفئات</a>
+                                    </li>
+                                    <li class="nav-item px-2">
+                                        <a class="nav-link en" href="#">Web Design</a>
+                                        <a class="nav-link ar" href="#">تصميم المواقع</a>
+                                    </li>
+                                    <li class="nav-item px-2">
+                                        <a class="nav-link en" href="#">Branding</a>
+                                        <a class="nav-link ar" href="#">العلامة التجارية</a>
+                                    </li>
+                                    <li class="nav-item px-2">
+                                        <a class="nav-link en" href="#">Mockups</a>
+                                        <a class="nav-link ar" href="#">نموذج تجريبي</a>
+                                    </li>
+                                    <li class="nav-item px-2 active">
+                                        <a class="nav-link en" href="#">Photography</a>
+                                        <a class="nav-link ar" href="#">التصوير</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12 mx-auto c-bord">
+                        <img src="work1.jpg" width="400" />
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 mx-auto c-bord pt-lg-0 pt-md-3 pt-sm-3">
+                        <img src="work1.jpg" width="400" />
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 mx-auto c-bord pt-lg-0 pt-md-3 pt-sm-3">
+                        <img src="work1.jpg" width="400" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row px-5 pt-5 pb-5">
+            <div class="col-12 text-center">
+                <h4 class="en">Pricing Table</h4>
+                <h4 class="ar">جدول التسعير</h4>
+                <div class="row">
+                    <div class="col-lg-3 col-md-10 col-sm-10 mx-auto mb-md-5 mb-sm-5 mb-lm-0">
+                        <div class="custom-card text-center">
+                            <i class="fa fa-table green" aria-hidden="true"></i>
+                            <h3 class="pt-3 pb-2 en">Full-time work</h3>
+                            <h3 class="pt-3 pb-2 ar">عمل بدوام كامل</h3>
+                            <div class="en">
+                                <span>I am available for full time</span>
+                                <h3 class="pt-3 green">1500$</h3>
+                                <h6>Web Development</h6>
+                                <h6>Advertising</h6>
+                                <h6>Game Development</h6>
+                                <h6>Music Writing</h6>
+                                <div style="padding-top:15px">
+                                    <button type="button" class="btn custom" style="padding: 8px 40px">Hire me</button>
+                                </div>
+                            </div>
+                            <div class="ar">
+                                <span>أنا متاح بدوام كامل</span>
+                                <h3 class="pt-3 green">1500$</h3>
+                                <h6>تطوير الشبكة</h6>
+                                <h6>دعاية</h6>
+                                <h6>تطوير اللعبة</h6>
+                                <h6>كتابة الموسيقى</h6>
+                                <div style="padding-top:15px">
+                                    <button type="button" class="btn custom" style="padding: 8px 40px">وظفني</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-10 col-sm-10 mx-auto mb-md-5 mb-sm-5 mb-lm-0">
+                        <div class="custom-card text-center">
+                            <i class="fa-solid fa-file green"></i>
+                            <h3 class="pt-3 pb-2 en">Fixed price</h3>
+                            <h3 class="pt-3 pb-2 ar">سعر ثابت</h3>
+
+                            <div class="en">
+                                <span>I am available for full time</span>
+                                <h3 class="pt-3 green">1500$</h3>
+                                <h6>Web Development</h6>
+                                <h6>Advertising</h6>
+                                <h6>Game Development</h6>
+                                <h6>Music Writing</h6>
+                                <div style="padding-top:15px">
+                                    <button type="button" class="btn custom" style="padding: 8px 40px">Hire me</button>
+                                </div>
+                            </div>
+                            <div class="ar">
+                                <span>أنا متاح بدوام كامل</span>
+                                <h3 class="pt-3 green">1500$</h3>
+                                <h6>تطوير الشبكة</h6>
+                                <h6>دعاية</h6>
+                                <h6>تطوير اللعبة</h6>
+                                <h6>كتابة الموسيقى</h6>
+                                <div style="padding-top:15px">
+                                    <button type="button" class="btn custom" style="padding: 8px 40px">وظفني</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-10 col-sm-10 mx-auto mb-md-5 mb-sm-5 mb-lm-0">
+                        <div class="custom-card text-center">
+                            <i class="fa-solid fa-hourglass-start green"></i>
+                            <h3 class="pt-3 pb-2 en">Hourly time</h3>
+                            <h3 class="pt-3 pb-2 ar">الوقت بالساعة</h3>
+
+                            <div class="en">
+                                <span>I am available for full time</span>
+                                <h3 class="pt-3 green">1500$</h3>
+                                <h6>Web Development</h6>
+                                <h6>Advertising</h6>
+                                <h6>Game Development</h6>
+                                <h6>Music Writing</h6>
+                                <div style="padding-top:15px">
+                                    <button type="button" class="btn custom" style="padding: 8px 40px">Hire me</button>
+                                </div>
+                            </div>
+                            <div class="ar">
+                                <span>أنا متاح بدوام كامل</span>
+                                <h3 class="pt-3 green">1500$</h3>
+                                <h6>تطوير الشبكة</h6>
+                                <h6>دعاية</h6>
+                                <h6>تطوير اللعبة</h6>
+                                <h6>كتابة الموسيقى</h6>
+                                <div style="padding-top:15px">
+                                    <button type="button" class="btn custom" style="padding: 8px 40px">وظفني</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row px-5 pt-5 pb-5">
+            <div class="col-12 mx-auto text-center">
+                <h4 class="en">Featured Posts</h4>
+                <h4 class="ar">المشاركات مميزة</h4>
+                <div class="row">
+                    <div class="col-lg-3 col-md-10 col-sm-10 mx-auto mb-md-5 mb-sm-5 mb-lg-0 text-center">
+                        <div class="custom-card-2 mx-auto">
+                            <img src="traffic.jpg" width="100%" />
+                            <div class="text-details en">
+                                <h3 class="pt-1 text-secondary">A life without the daily traffic jams</h3>
+                                <span class="font-weight-bold">Post on </span> <span class="green">24.11.19</span> <span
+                                    class="font-weight-bold">by</span> <span class="green">Josh</span>
+                                <p class="pt-4">
+                                    It is a long established fact that a reader will be distracted by the readable
+                                    content of a page when looking at its layout
+                                </p>
+                                <span class="green font-weight-bold">Read more</span>
+                            </div>
+                            <div class="text-details ar">
+                                <h3 class="pt-1 text-secondary">حياة خالية من الاختناقات المرورية اليومية</h3>
+                                <span class="font-weight-bold">انشر على</span> <span class="green">24.11.19</span> <span
+                                    class="font-weight-bold">بواسطة</span> <span class="green">جوش</span>
+                                <p class="pt-4">
+                                    هناك حقيقة مثبتة منذ زمن طويل وهي أن المقروء سيلهي القارئ عن التركيز
+                                    محتوى الصفحة عند النظر إلى تخطيطها                                </p>
+                                <span class="green font-weight-bold">اقرأ أكثر</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-10 col-sm-10 mx-auto mb-md-5 mb-sm-5 mb-lm-0">
+                        <div class="custom-card-2 mx-auto">
+                            <img src="traffic.jpg" width="100%" />
+                            <div class="text-details en">
+                                <h3 class="pt-1 text-secondary">A life without the daily traffic jams</h3>
+                                <span class="font-weight-bold">Post on </span> <span class="green">24.11.19</span> <span
+                                    class="font-weight-bold">by</span> <span class="green">Josh</span>
+                                <p class="pt-4">
+                                    It is a long established fact that a reader will be distracted by the readable
+                                    content of a page when looking at its layout
+                                </p>
+                                <span class="green font-weight-bold">Read more</span>
+                            </div>
+                            <div class="text-details ar">
+                                <h3 class="pt-1 text-secondary">حياة خالية من الاختناقات المرورية اليومية</h3>
+                                <span class="font-weight-bold">انشر على</span> <span class="green">24.11.19</span> <span
+                                    class="font-weight-bold">بواسطة</span> <span class="green">جوش</span>
+                                <p class="pt-4">
+                                    هناك حقيقة مثبتة منذ زمن طويل وهي أن المقروء سيلهي القارئ عن التركيز
+                                    محتوى الصفحة عند النظر إلى تخطيطها                                </p>
+                                <span class="green font-weight-bold">اقرأ أكثر</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-10 col-sm-10 mx-auto mb-md-5 mb-sm-5 mb-lm-0">
+                        <div class="custom-card-2 mx-auto">
+                            <img src="traffic.jpg" width="100%" />
+                            <div class="text-details en">
+                                <h3 class="pt-1 text-secondary">A life without the daily traffic jams</h3>
+                                <span class="font-weight-bold">Post on </span> <span class="green">24.11.19</span> <span
+                                    class="font-weight-bold">by</span> <span class="green">Josh</span>
+                                <p class="pt-4">
+                                    It is a long established fact that a reader will be distracted by the readable
+                                    content of a page when looking at its layout
+                                </p>
+                                <span class="green font-weight-bold">Read more</span>
+                            </div>
+                            <div class="text-details ar">
+                                <h3 class="pt-1 text-secondary">حياة خالية من الاختناقات المرورية اليومية</h3>
+                                <span class="font-weight-bold">انشر على</span> <span class="green">24.11.19</span> <span
+                                    class="font-weight-bold">بواسطة</span> <span class="green">جوش</span>
+                                <p class="pt-4">
+                                    هناك حقيقة مثبتة منذ زمن طويل وهي أن المقروء سيلهي القارئ عن التركيز
+                                    محتوى الصفحة عند النظر إلى تخطيطها                                </p>
+                                <span class="green font-weight-bold">اقرأ أكثر</span>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row px-5 pt-5 pb-5">
+            <div class="col-12 text-center">
+                <h4 class="en">Client Reviews</h4>
+                <h4 class="ar">مراجعات العملاء</h4>
+                <div class="row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-3 col-md-10 col-sm-10 mx-auto mb-md-5 mb-sm-5 mb-lm-0">
+                        <div class="custom-card-3 text-center en">
+                            <img src="client.jpg" width="150px" height="150px" />
+                            <p class="pb-4 pt-4">
+                                " Absolute wonderful! I am completely blown away. The very best. I was amazed at the
+                                quality "
+                            </p>
+                            <h5>Someone</h5>
+                            <span class="text-secondary">CEO, Author Inc</span>
+                        </div>
+                        <div class="custom-card-3 text-center ar">
+                            <img src="client.jpg" width="150px" height="150px" />
+                            <p class="pb-4 pt-4">
+                                "رائع للغاية! أنا مذهول تمامًا. الأفضل جدًا. لقد اندهشت من
+                                جودة "
+                            </p>
+                            <h5>شخص ما</h5>
+                            <span class="text-secondary">الرئيس التنفيذي لشركة المؤلف</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-10 col-sm-10 mx-auto mb-md-5 mb-sm-5 mb-lm-0">
+                        <div class="custom-card-3 text-center en">
+                            <img src="client.jpg" width="150px" height="150px" />
+                            <p class="pb-4 pt-4">
+                                " Absolute wonderful! I am completely blown away. The very best. I was amazed at the
+                                quality "
+                            </p>
+                            <h5>Someone</h5>
+                            <span class="text-secondary">CEO, Author Inc</span>
+                        </div>
+                        <div class="custom-card-3 text-center ar">
+                            <img src="client.jpg" width="150px" height="150px" />
+                            <p class="pb-4 pt-4">
+                                "رائع للغاية! أنا مذهول تمامًا. الأفضل جدًا. لقد اندهشت من
+                                جودة "
+                            </p>
+                            <h5>شخص ما</h5>
+                            <span class="text-secondary">الرئيس التنفيذي لشركة المؤلف</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-10 col-sm-10 mx-auto mb-md-5 mb-sm-5 mb-lm-0">
+                        <div class="custom-card-3 text-center en">
+                            <img src="client.jpg" width="150px" height="150px" />
+                            <p class="pb-4 pt-4">
+                                " Absolute wonderful! I am completely blown away. The very best. I was amazed at the
+                                quality "
+                            </p>
+                            <h5>Someone</h5>
+                            <span class="text-secondary">CEO, Author Inc</span>
+                        </div>
+                        <div class="custom-card-3 text-center ar">
+                            <img src="client.jpg" width="150px" height="150px" />
+                            <p class="pb-4 pt-4">
+                                "رائع للغاية! أنا مذهول تمامًا. الأفضل جدًا. لقد اندهشت من
+                                جودة "
+                            </p>
+                            <h5>شخص ما</h5>
+                            <span class="text-secondary">الرئيس التنفيذي لشركة المؤلف</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-1"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row px-5 pt-5 pb-5">
+            <div class="col-12 text-center">
+                <h4 class="en">Contact me</h4>
+                <h4 class="ar">اتصل بي</h4>
+                <div class="row pt-5">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-3 col-md-10 col-sm-10 mx-auto mb-md-5 mb-sm-5 mb-lm-0">
+                        <div class="custom-card-3 text-center en">
+                            <i class="fa-sharp fa-solid fa-location-arrow icon-style"></i>
+                            <h3 class="pt-3 font-weight-bold">Address</h3>
+                            <p class="pb-4 pt-4">
+                                5th avenue, 34th floor, new york
+                            </p>
+                        </div>
+                        <div class="custom-card-3 text-center ar">
+                            <i class="fa-sharp fa-solid fa-location-arrow icon-style "></i>
+                            <h3 class="pt-3 font-weight-bold">عنوان</h3>
+                            <p class="pb-4 pt-4">
+                                الشارع الخامس ، الطابق 34 ، نيويورك
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-10 col-sm-10 mx-auto mb-md-5 mb-sm-5 mb-lm-0">
+                        <div class="custom-card-3 text-center h-100 en">
+                            <i class="fa-solid fa-envelope icon-style"></i>
+                            <h3 class="pt-3 font-weight-bold">Email</h3>
+                            <div class="pt-4">
+                                <a style="display:block;">karim@gmail.com</a>
+                                <a>karim@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="custom-card-3 text-center h-100 ar">
+                            <i class="fa-solid fa-envelope icon-style"></i>
+                            <h3 class="pt-3 font-weight-bold">بريد إلكتروني</h3>
+                            <div class="pt-4">
+                                <a style="display:block;">karim@gmail.com</a>
+                                <a>karim@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-10 col-sm-10 mx-auto mb-md-5 mb-sm-5 mb-lm-0">
+                        <div class="custom-card-3 text-center h-100 en">
+                            <i class="fa-solid fa-phone icon-style"></i>
+                            <h3 class="pt-3 font-weight-bold">Phone</h3>
+                            <div class="pt-4">
+                                <a style="display:block;">2342342341324</a>
+                                <a>2341234324234</a>
+                            </div>
+                        </div>
+                        <div class="custom-card-3 text-center h-100 ar">
+                            <i class="fa-solid fa-phone icon-style"></i>
+                            <h3 class="pt-3 font-weight-bold">هاتف</h3>
+                            <div class="pt-4">
+                                <a style="display:block;">2342342341324</a>
+                                <a>2341234324234</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-1"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row px-5 pt-5 pb-5">
+            <div class="col-lg-5 mx-auto en">
+                <div class="row-edits pb-3">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="First name">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Last name">
+                </div>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+                <textarea class="form-control mt-3" id="exampleFormControlTextarea1" rows="8"
+                    placeholder="Your message"></textarea>
+                <button type="button" class="btn custom w-100 mt-3">Send message</button>
+            </div>
+
+
+            <div class="col-lg-5 mx-auto ar">
+                <div class="row-edits pb-3">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="الاسم الأول">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="اسم العائلة">
+                </div>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="أدخل البريد الإلكتروني">
+                <textarea class="form-control mt-3" id="exampleFormControlTextarea1" rows="8"
+                    placeholder="رسالتك"></textarea>
+                <button type="button" class="btn custom w-100 mt-3">أرسل رسالة</button>
+            </div>
+
+
+            <div class="col-lg-5 pt-md-5 pt-sm-5 pt-lg-0 mx-auto">
+                <img src="location.PNG" width="100%" height="80%" />
+            </div>
+        </div>
+
+        <div class="row px-5 pt-5 pb-5">
+            <div class="col-2 mx-auto">
+                <p class="en">All rights reserved 2018</p>
+                <p class="ar">جميع الحقوق محفوظة 2018</p>
+            </div>
+            <div class="col-4 mx-auto">
+                <div class="item ">
+                    <i class="fa-brands fa-facebook-f pr-4"></i>
+                    <i class="fa-brands fa-twitter pr-4"></i>
+                    <i class="fa-brands fa-github pr-4"></i>
+                    <i class="fa-solid fa-link"></i>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
